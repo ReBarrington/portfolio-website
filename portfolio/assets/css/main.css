@@ -294,7 +294,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
+		align-items: baseline;
 	}
 
 		.row > * {
@@ -2400,6 +2400,7 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+				height: 75%;
 			}
 
 /* List */
