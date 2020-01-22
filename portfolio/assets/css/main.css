@@ -294,7 +294,7 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: baseline;
+		align-items: center;
 	}
 
 		.row > * {
@@ -360,6 +360,20 @@ input, select, textarea {
 		.row > .col-4 {
 			width: 33.33333%;
 		}
+
+		/* MY CODE for bottom 3 elements*/
+		/* .col-12-medium {
+			border: pink 6px dotted;
+			text-align: center;
+			display: flex;
+		}
+
+		.col-12-medium section {
+			border: blue 3px solid;
+			justify-items: space-evenly;
+		} */
+
+		/* END OF MY CODE */
 
 		.row > .off-4 {
 			margin-left: 33.33333%;
@@ -496,10 +510,14 @@ input, select, textarea {
 				.row.gtr-uniform > * {
 					padding-top: 2em;
 				}
-
+/* My code */
 		.row.gtr-150 {
 			margin-top: 0;
 			margin-left: -3em;
+			display: flex;
+		}
+		.col-6 {
+			align-items: center;
 		}
 
 			.row.gtr-150 > * {
@@ -3120,7 +3138,6 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3521,5 +3538,9 @@ input, select, textarea {
 
 	/* HIDING PROBLEM AREAS TO WORK OUT LATER */
 	#two {
+		display: none;
+	}
+
+	#four {
 		display: none;
 	}
